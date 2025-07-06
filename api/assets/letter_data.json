@@ -1,0 +1,106 @@
+{
+  "a": {
+    "score": 1,
+    "tiles": 9
+  },
+  "b": {
+    "score": 3,
+    "tiles": 2
+  },
+  "c": {
+    "score": 3,
+    "tiles": 2
+  },
+  "d": {
+    "score": 2,
+    "tiles": 4
+  },
+  "e": {
+    "score": 1,
+    "tiles": 12
+  },
+  "f": {
+    "score": 4,
+    "tiles": 2
+  },
+  "g": {
+    "score": 2,
+    "tiles": 3
+  },
+  "h": {
+    "score": 4,
+    "tiles": 2
+  },
+  "i": {
+    "score": 1,
+    "tiles": 9
+  },
+  "j": {
+    "score": 8,
+    "tiles": 1
+  },
+  "k": {
+    "score": 5,
+    "tiles": 1
+  },
+  "l": {
+    "score": 1,
+    "tiles": 4
+  },
+  "m": {
+    "score": 3,
+    "tiles": 2
+  },
+  "n": {
+    "score": 1,
+    "tiles": 6
+  },
+  "o": {
+    "score": 1,
+    "tiles": 8
+  },
+  "p": {
+    "score": 3,
+    "tiles": 2
+  },
+  "q": {
+    "score": 10,
+    "tiles": 1
+  },
+  "r": {
+    "score": 1,
+    "tiles": 6
+  },
+  "s": {
+    "score": 1,
+    "tiles": 4
+  },
+  "t": {
+    "score": 1,
+    "tiles": 6
+  },
+  "u": {
+    "score": 1,
+    "tiles": 4
+  },
+  "v": {
+    "score": 4,
+    "tiles": 2
+  },
+  "w": {
+    "score": 4,
+    "tiles": 2
+  },
+  "x": {
+    "score": 8,
+    "tiles": 1
+  },
+  "y": {
+    "score": 4,
+    "tiles": 2
+  },
+  "z": {
+    "score": 10,
+    "tiles": 1
+  }
+}

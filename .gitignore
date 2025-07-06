@@ -1,0 +1,23 @@
+# Root-level ignores
+.env
+*.log
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Python-related (api/)
+api/__pycache__/
+api/*.py[cod]
+api/.venv/
+api/venv/
+api/env/
+api/.mypy_cache/
+api/.pytest_cache/
+
+# React-related (ui/)
+ui/node_modules/
+ui/.next/
+ui/dist/
+ui/build/
+ui/.turbo/
+ui/.parcel-cache/

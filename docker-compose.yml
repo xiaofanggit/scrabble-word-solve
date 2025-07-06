@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+  api:
+    build:
+      context: ./api
+    volumes:
+      - ./api:/app
+    ports:
+      - "8000:8000"
+    environment:
+      - DEV=true
+
+  ui:
+    build:
+      context: ./ui
+    volumes:
+      - ./ui:/app
+      - /app/node_modules
+    ports:
+      - "3000:3000"
