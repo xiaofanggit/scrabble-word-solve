@@ -40,7 +40,7 @@ export function InputFields({
       display="flex"
       flexDirection="column"
       alignItems="center"
-      gap={2}
+      gap={6}
       mt={4}
     >
       <TextField

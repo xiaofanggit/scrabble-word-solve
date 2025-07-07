@@ -1,2 +1,3 @@
 #!/bin/bash
-uvicorn main:app --reload --port 8000
+PORT=${PORT:-8000}
+uvicorn main:app --host 0.0.0.0 --port $PORT
