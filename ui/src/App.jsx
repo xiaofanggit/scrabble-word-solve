@@ -56,7 +56,13 @@ function App() {
 
           <ResultAlert result={result} />
         </Paper>
-
+        <Box mt={5}>
+          <Typography variant="body2" color="textSecondary" align="center">
+            ⚠️ Note: This Scrabble solver checks against the top 10,000 most
+            commonly used English words. Some rare or obscure words may not be
+            included.
+          </Typography>
+        </Box>
         <FooterNote />
       </Container>
     </Box>
