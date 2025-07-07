@@ -1,10 +1,6 @@
-### ✅ `ui/README.md` (frontend folder)
-
-## 🎨 Frontend - React + Vite + Material UI
+### 🎨 Frontend - React + Vite + Material UI
 
 This is the web-based UI where players enter rack and board words to find Scrabble suggestions.
-
----
 
 ### 📁 Folder Structure
 
@@ -36,18 +32,23 @@ ui/
 └── README.md
 ```
 
----
+### ▶️ Run Only Frontend (No Docker)
 
-### ▶️ Run Only Frontend (Dev)
+If you don't want to execute ui using docker, and have npm installed in your computer locally, please try the below:
 
-```bash
+```
 cd ui
 npm install
-npm run dev
+```
+
+▶ Run:
+
+```
+npm start
 ```
 
 ### 🧪 Run Frontend Tests
 
-```
+```bash
 npm run test
 ```

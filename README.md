@@ -1,4 +1,4 @@
-# 🧠 Scrabble Word Solver
+## 📱 Scrabble Word Solver
 
 A full-stack Scrabble word solver built with:
 
@@ -20,12 +20,10 @@ scrabble-word-solver/
 └── README.md               # Project overview and usage
 ```
 
----
-
 ## 📚 Detailed Component Docs
 
-- 🔧 [Backend (FastAPI)](api/README.md)
-- 🎨 [Frontend (React + Vite + MUI)](ui/README.md)
+- 🔧 [Backend API (FastAPI)](api/README.md)
+- 🎨 [Frontend UI (React + Vite + MUI)](ui/README.md)
 
 ---
 
