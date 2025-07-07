@@ -8,7 +8,7 @@ A full-stack Scrabble word solver built with:
 
 ---
 
-## 📁 Project Structure
+### 📁 Project Structure
 
 ```
 scrabble-word-solver/
@@ -22,7 +22,14 @@ scrabble-word-solver/
 
 ---
 
-## 🧰 Prerequisites
+## 📚 Detailed Component Docs
+
+- 🔧 [Backend (FastAPI)](api/README.md)
+- 🎨 [Frontend (React + Vite + MUI)](ui/README.md)
+
+---
+
+### 🧰 Prerequisites
 
 Install [Docker Desktop](https://www.docker.com/products/docker-desktop) for:
 
@@ -43,13 +50,13 @@ git clone https://github.com/xiaofanggit/scrabble-word-solve.git
 cd scrabble-word-solver
 ```
 
-Build the containers
+Build the container
 
 ```
 docker compose build
 ```
 
-## ▶️ Start the app
+### ▶️ Start the app
 
 ```
 docker compose up
@@ -65,8 +72,3 @@ Backend Swagger API: http://localhost:8000/docs
 ![API Screenshot](./api/assets/images/api.png)
 
 ---
-
-## 📚 Detailed Component Docs
-
-- 🔧 [Backend (FastAPI)](api/README.md)
-- 🎨 [Frontend (React + Vite + MUI)](ui/README.md)

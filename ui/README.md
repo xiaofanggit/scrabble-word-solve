@@ -1,15 +1,12 @@
----
-
 ### ✅ `ui/README.md` (frontend folder)
 
-```md
-# 🎨 Frontend - React + Vite + Material UI
+## 🎨 Frontend - React + Vite + Material UI
 
 This is the web-based UI where players enter rack and board words to find Scrabble suggestions.
 
 ---
 
-## 📁 Folder Structure
+### 📁 Folder Structure
 
 ```
 ui/
@@ -41,7 +38,7 @@ ui/
 
 ---
 
-## ▶️ Run Only Frontend (Dev)
+### ▶️ Run Only Frontend (Dev)
 
 ```bash
 cd ui
@@ -49,7 +46,7 @@ npm install
 npm run dev
 ```
 
-## 🧪 Run Frontend Tests
+### 🧪 Run Frontend Tests
 
 ```
 npm run test

@@ -15,6 +15,9 @@ api/
 ├── assets/
 │ ├── dictionary.txt # Clean word list (2–15 letters)
 │ └── letter_data.json # Letter scores + tile counts
+| └── images/
+|       └──api.png
+|       └──ui.png
 │
 ├── helper/
 │ └── load_solver_dependencies.py
@@ -39,7 +42,7 @@ api/
 
 ## ▶️ Run Only Backend using Python venv (No Docker)
 
-If you prefer not to use Docker, you can run the FastAPI backend manually using Python's built-in virtual environment.
+If you prefer not to use Docker, you can run the FastAPI backend manually using Python's built-in virtual environment. **But please make sure you have python3 and pip installed in your computer locally before executing the below command.**
 
 ---
 
@@ -65,6 +68,7 @@ cd api
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
+pip install -r dev-requirements.txt
 uvicorn main:app --reload --port 8000
 ```
 
