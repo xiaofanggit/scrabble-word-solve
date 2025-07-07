@@ -38,7 +38,7 @@ Verify installation:
 
 ```bash
 docker --version
-docker compose version
+docker compose version  # (Old version: docker-compose version)
 ```
 
 Clone the repo
@@ -50,14 +50,14 @@ cd scrabble-word-solver
 
 Build the container
 
-```
-docker compose build
+```bash
+docker compose build  # (Old version: docker-compose build)
 ```
 
 ### ▶️ Start the app
 
-```
-docker compose up
+```bash
+docker compose up  # (Old version: docker-compose up)
 ```
 
 Open in browser
